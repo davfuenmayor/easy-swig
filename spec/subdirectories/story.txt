@@ -1,0 +1,12 @@
+Subdirectories
+======================
+
+EasySwig will find header files in subdirectories.
+Preprocessor macros defined in these files must also be expanded by SWIG during the wrapper's generation.
+
+In order to do this, the headers must be made visible to SWIG. The config file (custom_config.i) can be used for this task:
+
+/* File : custom_config.i */
+%include "header.h"
+%include "subdir1/header1.h"
+%include "subdir2/header2.h"

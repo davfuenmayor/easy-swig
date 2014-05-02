@@ -1,0 +1,28 @@
+Friends
+======================
+
+Friend functions are recognized and wrapped accordingly.
+Additionally, overloaded operators (which are usually friend members and SWIG cannot deal with them) are found by EasySwig and wrapped as common functions using following name convention:
+
+__add__      operator+
+__pos__      operator+()
+__pos__      operator+() const
+__sub__      operator-
+__neg__      operator-()
+__neg__      operator-() const
+__mul__      operator*
+__div__      operator/
+__mod__      operator%
+__lshift__   operator<<
+__rshift__   operator>>
+__and__      operator&
+__or__       operator|
+__xor__      operator^
+__invert__   operator~
+__lt__       operator<
+__le__       operator<=
+__gt__       operator>
+__ge__       operator>=
+__eq__       operator==
+
+

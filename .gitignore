@@ -1,0 +1,26 @@
+*.*~
+*.gem
+*.rbc
+*.gch
+*.bundle
+*.o
+*.dll
+*.so
+*.lib
+.config
+.project
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+**/easy-swig
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/

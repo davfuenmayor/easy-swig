@@ -1,0 +1,5 @@
+Squish
+======================
+
+Example application of Easy-Swig to generate wrappers for a real life application: Squish (https://code.google.com/p/libsquish)
+

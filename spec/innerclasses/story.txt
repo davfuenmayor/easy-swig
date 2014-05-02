@@ -1,0 +1,12 @@
+Innerclasses
+======================
+
+Innerclasses are not supported by SWIG and simply ignored. 
+
+There is a known workaround to this, which we aim to implement:
+
+http://www.swig.org/Doc2.0/SWIGPlus.html#SWIGPlus_nested_classes
+
+This approach has a small pitfall when the "Outer" class has a sibling with the same name as its "Inner" class.
+This case is detected by EasySwig the innerclass is ignored (SWIG default behaviour).
+We also ignore innerclasses with no public constructor/destructors.

@@ -1,0 +1,6 @@
+Accessors
+======================
+
+Recognize setter and getter methods and wraps them as C# Properties.
+Static members are also recognized.
+Special care is taken when handling references (&) pointers (*) and strings in order to avoid nasty runtime errors.

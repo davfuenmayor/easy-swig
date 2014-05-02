@@ -1,0 +1,27 @@
+Project example showing how to use EasySwig (use as template for other projects)
+=========================================
+
+
+Mandatory components:
+
+- A subfolder named 'include' with the header files you want to wrap
+- A CSV file named 'api.csv' with the name of the namespace you want to wrap and classes to wrap/ignore
+
+Optional components:
+
+- A file (optionally named custom_config.i) with %include statements for those header files found in subdirectories (otherwise SWIG won't find them)
+
+
+Execute EasySwig:
+
+1. Move to this folder
+> cd spec/Example
+
+2. Generate Doxygen XML Intermediate representation. Found in generated subfolder: 'easy-swig/doxygen'
+> sh ../../bin/easyswig.sh doxygen
+
+3. Generate SWIG Interface Files (.i). Found in generated subfolder: 'easy-swig/generate'
+> sh ../../bin/easyswig.sh generate
+
+4. Generate Wrappers using your installed version of SWIG. Found in generated subfolder: 'easy-swig/swig'
+> sh ../../bin/easyswig.sh swig

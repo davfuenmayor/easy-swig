@@ -1,0 +1,5 @@
+Namespace Prefixes
+======================
+
+SWIG does not always use fully qualified names for STL classes in its wrappers, which often leads to name collisions. EasySwig fixes this!
+

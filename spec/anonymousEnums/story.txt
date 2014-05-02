@@ -1,0 +1,12 @@
+Anonymous Enums
+======================
+
+enum {
+	value1, value2, ..
+};
+
+Such 'Anonymous' Enums are parsed by Doxygen with a weird name (for instance @13). Doxyparser replaces this value through something like '_Enum2'
+
+Additionally:
+- Named Enums are wrapped as Classes and include their values
+- Anonymous Enums are correctly wrapped as Enums and given a name

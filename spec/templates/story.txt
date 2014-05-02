@@ -1,0 +1,9 @@
+Templates
+======================
+
+SWIG does not wrap methods with template-types i.e. template declarations are always ignored (seee http://www.swig.org/Doc2.0/SWIGDocumentation.html#SWIGPlus_nn30).
+
+A very patient SWIG user must use in this case the the %template directive to create instantiations of every template class (or function) found in the header files:
+%template(doubleList) List<double>;
+
+EasySwig eases this process by automatically generating this directives while not being fooled by tricky typedefs ;)
