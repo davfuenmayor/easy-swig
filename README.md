@@ -13,7 +13,7 @@ Installation and Use
 
 EasySwig relies on the Doxyparser gem (https://github.com/davfuenmayor/ruby-doxygen-parser) which on his part depends on Nokogiri (http://nokogiri.org) and Doxygen (www.doxygen.org). Refer to Doxyparser for more information.
 
-To actually generate wrappers you may also want to install SWIG (http://www.swig.org/). Currently only SWIG version 2.0.11 is supported. There is  ongoing work on 3.0.0 version support.
+To actually generate wrappers you may also want to install SWIG (http://www.swig.org/). SWIG versions 2.x and 3.x are supported.
 
 
 For using EasySwig you need to create a folder with the following structure:
