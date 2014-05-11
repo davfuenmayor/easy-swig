@@ -7,7 +7,7 @@ public class InnerclassesTest {
    {
       Console.WriteLine("InnerClasses Test!");
       Outer outer = new Outer();
-      Inner inner = outer.CreateInner(45);
+      Outer.Inner inner = outer.CreateInner(45);
       if(inner.var != 45) {
       	throw new System.InvalidOperationException("Inner value should be initially 45");
       }

@@ -9,7 +9,6 @@ namespace TestNamespace {
 	// Innerclasses
 	class Outer {
 		private:
-			typedef float MyOuterClassFloat;
 	
 	protected:	
 		class InnerProtected {
@@ -22,6 +21,7 @@ namespace TestNamespace {
 		};
 	
 	public:
+		typedef float MyOuterClassFloat;
 		
 		enum MyEnum{ 
 			value1 = 0, value2, value3
@@ -43,8 +43,8 @@ namespace TestNamespace {
 		};
 	  	class Inner {
 	  	
-	  		typedef int MyInnerClassInt;
 			public:
+	  		typedef int MyInnerClassInt;
 		  	MyOuterClassFloat outerFloatVar;
 		  	MyInnerClassInt var;
 		  	MyNamespaceDoublePtr nsDoubleVar;

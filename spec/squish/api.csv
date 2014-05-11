@@ -1,15 +1,15 @@
-namespace	target_name	basename		wrap_classes	wrap_functions	wrap_enums	wrap_variables	nested_support	friend_support	properties	partial	
+namespace	target_name	basename		wrap_classes	wrap_functions	wrap_enums	wrap_variables	friend_support	properties	partial		nested_support
 function	target_name	basename	ignore									
 variable	target_name	basename	ignore									
 enum	target_name	basename	ignore									
-class	target_name	basename	ignore	wrap_innerclasses	wrap_methods	wrap_innerenums	wrap_attributes	nested_support	friend_support	properties	partial	struct
-method	target_name	basename	ignore							properties		
+class	target_name	basename	ignore	wrap_innerclasses	wrap_methods	wrap_innerenums	wrap_attributes	friend_support	properties	partial	struct	nested_support
+method	target_name	basename	ignore						properties			
 attribute	target_name	basename	ignore									
 innerenum	target_name	basename	ignore									
-innerclass	target_name	basename	ignore					nested_support	friend_support	properties		struct
+innerclass	target_name	basename	ignore					friend_support	properties		struct	nested_support
 												
 												
-namespace	Squish	squish		x	x	x	x	x	x	x	x	
+namespace	Squish	squish		x	x	x	x	x	x	x		
 												
 												
 												
@@ -217,13 +217,13 @@ namespace	Squish	squish		x	x	x	x	x	x	x	x
 												
 												
 												
-										x		
-										x		
+									x			
+									x			
 												
 												
 												
-										x		
-										x		
+									x			
+									x			
 				x		x	x					
 												
 												
@@ -238,36 +238,36 @@ namespace	Squish	squish		x	x	x	x	x	x	x	x
 												
 												
 												
-										x		
+									x			
 				x		x	x					
 				x		x	x					
-										x		
+									x			
 				x		x	x					
-										x		
-				x		x	x					
-												
-				x		x	x					
-												
-												
+									x			
 				x		x	x					
 												
 				x		x	x					
-										x		
-												
-												
-										x		
-				x		x	x					
-												
 												
 												
 				x		x	x					
 												
-										x		
-										x		
-										x		
-										x		
-										x		
-										x		
+				x		x	x					
+									x			
+												
+												
+									x			
 				x		x	x					
 												
-				x	x	x	x			x		
+												
+												
+				x		x	x					
+												
+									x			
+									x			
+									x			
+									x			
+									x			
+									x			
+				x		x	x					
+												
+				x	x	x	x		x			

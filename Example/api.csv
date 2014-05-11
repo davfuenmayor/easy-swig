@@ -8,5 +8,7 @@ attribute	target_name	basename	ignore
 innerenum	target_name	basename	ignore									
 innerclass	target_name	basename	ignore					friend_support	properties		struct	nested_support
 												
-namespace	TestNamespace	TestNamespace		x	x	x	x	x		x		
-class	NonWrappedClass	NonWrappedClass	x									
+	Following rows are project specific configuration											
+												
+namespace	Example	Example		x	x	x	x	x	x	x		
+class	NotWrappedClass		x									

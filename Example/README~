@@ -5,7 +5,7 @@ Project example showing how to use EasySwig (use as template for other projects)
 Mandatory components:
 
 - A subfolder named 'include' with the header files you want to wrap
-- A CSV file named 'api.csv' with the name of the namespace you want to wrap and classes to wrap/ignore
+- A CSV file named 'api.csv' with the name of the namespace you want to wrap and classes to wrap/ignore. See template.
 
 Optional components:
 
